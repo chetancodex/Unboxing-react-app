@@ -1,0 +1,119 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: 
+    #0D0D0D;
+    color: #F37413;
+    padding: 30px 60px;
+  }
+  
+  .header h1 {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 40px; /* Adds space between list items */
+  }
+  
+  .header nav ul li {
+    margin: 0;
+    position: relative; /* Ensure positioning context for child elements */
+  }
+  
+  .header nav ul li a {
+    text-decoration: none;
+    
+
+  }
+  .date{
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color : #6F6F6F;
+  }
+  
+  .header nav ul li a:hover {
+    text-decoration: none;
+  }
+  
+  /* Style for the bell icon */
+  .bell-icon {
+    font-size: 25px; /* Adjust the size of the bell icon */
+    margin-left: 15px; /* Adjust the spacing between the date and the bell icon */
+    position: relative; /* Ensure positioning context */
+    color:#F5F5F5;
+  }
+  
+  /* Orange dot for notification */
+  .notification-dot {
+    position: absolute;
+    top: 15%; /* Adjusted to center vertically */
+    transform: translate(1050%, 50%); /* Positioning relative to parent */
+    width: 10px;
+    height: 10px;
+    background-color: #F37413;
+    border-radius: 50%; /* Make it circular */
+  }
+  
+  /* Style for the profile info */
+  .profile-item {
+    display: flex;
+    align-items: center;
+  }
+  
+  .profile-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+  }
+  
+  .name {
+    font-family: "Inter", sans-serif;
+    font-size :16px;
+    font-weight: 600;
+    margin-right: 5px;
+    color: #CFCFCF /* Adjust spacing between name and expertise level */
+  }
+  
+  .expertise-level {
+    font-size: 12px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    color: #6F6F6F;
+  }
+  
+  /* Circular profile picture */
+  .profile-circle {
+    width: 40px; /* Adjust the size of the circle */
+    height: 40px;
+    border-radius: 50%; /* Make it circular */
+    background-color: #F5F5F5; /* Example color */
+    margin-left: 10px; /* Adjust spacing between expertise level and profile circle */
+    box-shadow: 0 0 5px #F5F5F5; 
+  }
+  .profile{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px
+  }
+  .datebell{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+  }
+  .firstitem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
